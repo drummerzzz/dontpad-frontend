@@ -1,0 +1,109 @@
+// app global css in SCSS form
+// app global css in SCSS form
+$background1: #373737;
+$background2: #232329;
+$background3: #1C1C21;
+$black: #1C2128;
+$blue: #4078C0; // 4devs
+$green: #6CC644; // brtools
+$red: #BD2C00;
+$orange: #C9510C; // 5devs
+$purple: #6E5494;
+$white: #FAFAFA;
+$brtools: #6CC644;
+$fourdevs: #4078C0;
+$fivedevs: #C9510C;
+
+body {
+    font-family: 'Raleway' !important;
+}
+
+.text-background1 {
+    color: $background1;
+}
+
+.bg-background1 {
+    background-color: $background1;
+}
+
+.text-background2 {
+    color: $background2;
+}
+
+.bg-background2 {
+    background-color: $background2;
+}
+
+.text-background3 {
+    color: $background3;
+}
+
+.bg-background3 {
+    background-color: $background3;
+}
+
+.text-black {
+    color: $black;
+}
+
+.bg-black {
+    background-color: $black;
+}
+
+.text-blue {
+    color: $blue;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.text-green {
+    color: $green;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.text-red {
+    color: $red;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.text-orange {
+    color: $orange;
+}
+
+.bg-orange {
+    background-color: $orange;
+}
+
+.text-purple {
+    color: $purple;
+}
+
+.bg-purple {
+    background-color: $purple;
+}
+
+.text-white1 {
+    color: $white;
+}
+
+.bg-white1 {
+    background-color: $white;
+}
+
+.text-font-400 {
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+.text-font-900 {
+    font-family: Raleway;
+    font-weight: 900;
+}
