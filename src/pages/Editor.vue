@@ -127,7 +127,7 @@ interface Article {
   'updated_at': string
 }
 
-const baseUrl = 'https://dontpad-backend-production.up.railway.app'
+const baseUrl = process.env.NODE_ENV === 'production' ? 'https://dontpad-backend-production.up.railway.app' : 'http://localhost:5000'
 
 const onLoad = () => {
   $q.notify({
